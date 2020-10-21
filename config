@@ -1,0 +1,132 @@
+[global_config]
+  tab_position = hidden
+[keybindings]
+  go_next = <Primary>Tab
+  move_tab_left = None
+  next_tab = <Primary>Down
+  prev_tab = <Primary>Up
+  split_vert = <Primary>s
+[layouts]
+  [[default]]
+    [[[child0]]]
+      fullscreen = True
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 0:0
+      size = 1920, 1080
+      title = mideas@mideas-VirtualBox: ~
+      type = Window
+  [[Nouvel agencement]]
+    [[[child0]]]
+      fullscreen = True
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 0:0
+      size = 1920, 1080
+      title = mideas@mideas-VirtualBox: ~
+      type = Window
+    [[[child1]]]
+      active_page = 0
+      labels = None, None, None, None, None, None, None, None, None
+      last_active_term = a803947b-9acf-4d6b-b099-b32fba23207a, 1a4e8442-8eb6-4956-8606-9f0ed2a06b12, b3b20170-eff6-445e-93ae-7d9f3657f737, b73a303f-ba1b-462d-ac43-4d144cecb6fb, b27153ac-d588-4664-bc4b-2947d235bf2e, d4105ae4-aaea-4b64-85d5-da9f3a9a30ef, 9b5b78c3-0285-414c-9c58-bf1c97de145a, f311b1f6-14da-41f1-a2f6-58f365faddcb, 9c6199a4-f675-40fa-83a2-cf6c872959f0
+      order = 0
+      parent = child0
+      type = Notebook
+    [[[child3]]]
+      order = 1
+      parent = child1
+      position = 957
+      ratio = 0.500261369577
+      type = HPaned
+    [[[child8]]]
+      order = 4
+      parent = child1
+      position = 957
+      ratio = 0.500261369577
+      type = HPaned
+    [[[terminal10]]]
+      command = cd ~/Documents/WoW/wowserver-world/; bash
+      order = 1
+      parent = child8
+      profile = default
+      type = Terminal
+      uuid = b27153ac-d588-4664-bc4b-2947d235bf2e
+    [[[terminal11]]]
+      command = cd ~/Documents/WoW/wowserver-world/src; sleep 1;vim Server.cpp; sleep 1; bash
+      order = 5
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = d4105ae4-aaea-4b64-85d5-da9f3a9a30ef
+    [[[terminal12]]]
+      command = cd ~/Documents/WoW/wowserver-world/src; sleep 1; vim Const.h; bash
+      order = 6
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 9b5b78c3-0285-414c-9c58-bf1c97de145a
+    [[[terminal13]]]
+      command = cd ~/Documents/WoW/mangosOne3/src/game/; bash
+      order = 7
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = f311b1f6-14da-41f1-a2f6-58f365faddcb
+    [[[terminal14]]]
+      command = cd ~/Documents/WoW/wowserver-world/src/; bash
+      order = 8
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 9c6199a4-f675-40fa-83a2-cf6c872959f0
+    [[[terminal2]]]
+      command = cd ~/Documents/WoW/mangosOne3/; bash
+      order = 0
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = a803947b-9acf-4d6b-b099-b32fba23207a
+    [[[terminal4]]]
+      command = cd ~/Documents/WoW/mangosOne3/src/realmd/; bash
+      order = 0
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = a37d0f10-ebef-40c0-a593-44d6c130a584
+    [[[terminal5]]]
+      command = cd ~/Documents/WoW/mangosOne3/src/mangosd; bash
+      order = 1
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = 1a4e8442-8eb6-4956-8606-9f0ed2a06b12
+    [[[terminal6]]]
+      command = cd ~/Documents/WoW/mangosOne3/src/game/; bash
+      order = 2
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = b3b20170-eff6-445e-93ae-7d9f3657f737
+    [[[terminal7]]]
+      command = cd ~/Documents/WoW/mangosOne3/src/mangosd/; vim debug.txt; sleep 1; bash
+      order = 3
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = b73a303f-ba1b-462d-ac43-4d144cecb6fb
+    [[[terminal9]]]
+      command = cd ~/Documents/WoW/wowserver-auth/; bash
+      order = 0
+      parent = child8
+      profile = default
+      type = Terminal
+      uuid = 86315eb5-bc42-4468-b72b-004e1f901490
+[plugins]
+[profiles]
+  [[default]]
+    cursor_color = "#aaaaaa"
+    scrollback_lines = 5000
